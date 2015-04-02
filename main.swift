@@ -30,7 +30,7 @@ println(board.description)
 sleep(1)
 
 /**
-Move "@" right one place. Return argument if the first element of the
+Move "@" right one place. Return argument if the last element of the
 Array is "@".
 
 Examples:
@@ -56,7 +56,7 @@ func moveRight(board: [String]) -> [String] {
 }
 
 /**
-Move "@" left one place. Return argument if the last element of the
+Move "@" left one place. Return argument if the first element of the
 Array is "@".
 
 Examples:
